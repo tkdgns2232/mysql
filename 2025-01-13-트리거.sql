@@ -74,7 +74,7 @@ SELECT * FROM study.data_b_tb;
 call sp_loop_insert_data_b(10);
 
 select @@log_bin_trust_function_creators;
-set global log_bin_trust_function_creators = 1;
+set global log_bin_trust_function_creators = 1; 
 
 select study.add(10,20);
 
